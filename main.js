@@ -24,7 +24,7 @@ $(document).ready(function () {
 	})(jQuery);
 
 	// input text for typing animation
-	$("#holder").writeText("Business Strategy and Marketing Consultant");
+	$("#holder").writeText("Business Strategy and Technical Consultant");
 
 	/* ####### HERO SECTION ####### */
 

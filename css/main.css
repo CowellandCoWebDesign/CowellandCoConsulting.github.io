@@ -48,13 +48,14 @@ section {
   max-height: 51px;
   width: 100%;
   font-weight: 1000;
-  word-spacing: 20px;
+  word-spacing: 35px;
   text-align: left;
   font-family: "Great Vibes", cursive;
   background-color: #ffffff;
   z-index: 1;
   margin-top: 0px;
-  padding-top: 6px;
+  padding-top: 16px;
+	padding-bottom: 40px;
   white-space: nowrap;
 }
 
@@ -65,6 +66,7 @@ section {
 #nav-list li {
   display: inline;
   margin-right: 40px;
+	margin-left: -20px
 }
 
 .logo-img {
@@ -95,6 +97,8 @@ section {
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
   text-align: center;
+	font-family: 'Fondamento', cursive;
+	font-size: 2em;
   opacity: 0;
 }
 
@@ -111,11 +115,18 @@ section {
 .about-myself .content {
   text-align: center;
 }
-
+/**
+slide 2 title
+*/
 .about-myself .content h2 {
-  color: #ffffff;
-  font-size: 3em;
-  margin-bottom: 30px;
+	color: #fff;
+  font-weight: bold;
+  font-size: 1.45em;
+	background: rgba(0, 0, 0, 0.55);
+  margin-bottom: 50px;
+	margin-top: 100px;
+	margin-left: 60px;
+	margin-right: 50px;
   -webkit-transform: translateY(-50px) scale(0);
   transform: translateY(-50px) scale(0);
   -webkit-transition: transform 0.7s;
@@ -127,11 +138,15 @@ section {
   -webkit-transform: translateY(0px) scale(1);
   transform: translateX(0px) scale(1);
 }
-
+/**
+slide 2 definition below
+*/
 .about-myself .content p {
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.25em;
+	background: rgba(0, 0, 0, 0.55);
+	margin-bottom: 120px;
 }
 
 .about-myself .content p span {
@@ -346,7 +361,7 @@ li
 
 /*##### BOOKNOW SECTION #####*/
 .bookNow {
-  background: url("https://scx1.b-cdn.net/csz/news/800/2019/4-space.jpg");
+  background: url("https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -366,9 +381,9 @@ li
   font-size: 1.5em;
   padding: 20px;
   margin: 0 15px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.15);
   position: relative;
-  border: 2px solid #fff;
+  border: 4px solid #00ebfc;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -411,7 +426,7 @@ li
 }
 
 .resume .content {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   padding: 50px 0;
   text-align: center;
 }
@@ -499,7 +514,7 @@ li
 
 .portfolio .content .projects .project .project-image img {
   width: 100%;
-  border: 2px solid #000000;
+	border: 2px solid #000000;
   border-radius: 5px;
 }
 
@@ -603,7 +618,7 @@ h3 {
 }
 @media screen and (min-width: 640px) {
   .about-myself {
-    padding: 100px 40px;
+    padding: 10px 40px;
   }
 
   .skills {

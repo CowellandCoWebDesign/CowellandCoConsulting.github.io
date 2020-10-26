@@ -1,5 +1,6 @@
 /**
 Site imported : 7-9-2020
+siteupdated - 10/22/2020
 w.cowell
 */
 
@@ -24,7 +25,9 @@ $(document).ready(function () {
 	})(jQuery);
 
 	// input text for typing animation
-	$("#holder").writeText("Business Strategy and Technical Consultant");
+	$("#holder").writeText(
+		"Website Development, Logo Design, Business Consulting"
+	);
 
 	/* ####### HERO SECTION ####### */
 
@@ -93,3 +96,5 @@ $(document).ready(function () {
 		}
 	}); // -- End window scroll --
 });
+
+//new below

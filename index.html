@@ -2,7 +2,7 @@
 Site start : 7-9-2020
 Site live: 8-13-2020
 w.cowell
-/////
+//////
 updates:
 10-20-2020>
 -changed meta tags to new nam
@@ -35,6 +35,18 @@ added: nav-bar
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
+	<!-- new services links below -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
+	<!-- new services links above -->
+
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
 	<meta name="geo.position" content="40.57791300368603; -122.41059830975024">
 	<meta name="geo.placename" content="Cowell & Co Consulting">
 	<meta name="geo.region" content="96001">
@@ -63,25 +75,23 @@ NAV SECTION BELOW
 -->
 
 <header id="header">
-	<nav id="nav-bar">
-		<ul>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="navigation">
-						<p> <img class="logo-img" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/117176976_10158637035512679_3766706101701999862_n.jpg?_nc_cat=105&_nc_sid=730e14&_nc_ohc=KMhmhM0DWrcAX9UlWfM&_nc_ht=scontent-sjc3-1.xx&oh=b0f3bc8245c8dde18d90eca160b11ca6&oe=5F59484F" class="img-fluid" alt="">
-							<ul id="nav-list">
-								<li><a class="nav-link" href="#header">Home</a></li>
-								<li><a class="nav-link" href="#services">Services</a></li>
-								<li><a class="nav-link" href="#bookLink">Portfolio</a></li>
-								<li><a class="nav-link" href="#contact">Contact</a></li>
+
+	<nav>
+		<ul class="nav">
+			<li class="navItem"><a href="#home">Home</a></li>
+			<li class="navItem"><a href="#services">Services</a></li>
+			<li class="navItem"><a href="#services">Pricing</a></li>
+			<li class="navItem"><a href="#about">About</a></li>
+			<li class="navItem"><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!--
 								<li><a href="https://www.facebook.com/CowellandCoWebDesign/" class="fa fa-facebook"></a></li>
 								<li><a href="https://www.linkedin.com/in/williamcowell01/" class="fa fa-linkedin-square"></a></li>
-							</ul>
-						</p>
-					</div>
-				</div>
-			</div>
-	</nav>
+
+-->
+
 	<br><br>
 </header>
 <!--
@@ -89,7 +99,7 @@ Typing name at start of page here!
 -->
 
 <body>
-	<section class="hero">
+	<section class="hero" id="home">
 		<div class="content">
 			<div class="header">
 				<h1 style="color:white">Cowell <span style="color:#FF6363">&</span> Co Consulting</h1>
@@ -99,12 +109,12 @@ Typing name at start of page here!
 	</section>
 	<section class="bookNow">
 		<div class="about-myself">
-			<div class="content" id="services">
+			<div class="content" id="slide2">
 
 				<h2>To succeed, organizations must blend digital and human capabilities together. Cowell & Co Consulting’s single-minded mission is to dedicate our business process and technology innovation know-how, deep industry expertise and worldwide resources to working together with clients to make their businesses stronger through increased sales and productivity.</h2>
 
 				<br><br>
-				<!-- This is the original...
+				<!--This is the original...
 My name is Scott and I am a Web Designer & Front-End Developer based in Northern California. I specialize in creating amazing & beautiful websites for businesses and individuals in HTML5, CSS3, Bootstrap, and JavaScript. I also work with Adobe Premiere Elements Video Editing, Photoshop, and Microsoft Suite. With my extensive background in Business Management & Consulting, as well as Marketing/Advertising, I am able to provide real-world insight to your company. If you are ready to put your business in the spotlight, reach out below and let's get started!
 -->
 				<!--
@@ -115,15 +125,164 @@ My name is Scott and I am a Web Designer & Front-End Developer based in Northern
 					<a href="https://checkout.square.site/buy/TEHEKPCCUSQFLY6IKHIXP3QJ" target="_blank">
 						<div class="btn-resume">
 							<i class="fa fa-bolt  fa-2x" aria-hidden="true"></i>
-							<span>Book a Consultation<span>
+							<span>Get started now!<span>
 						</div>
 					</a>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!--
+test services section below
+-->
+	<!-- START SECTION SERVICES -->
+	<section class="section-services">
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<div class="col-md-10 col-lg-8">
+					<div class="header-section" id="services">
+						<h2 class="title">Exclusive Services</h2>
+						<!-- below is the description that can go under EXCLUSIVE SERVICES at the top of Services Section
+						<p class="description"></p>
+							-->
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fab fa-asymmetrik"></i>
+							</span>
+							<h3 class="title">Graphic Design</h3>
+							<p class="description">We offer the following Services:</p>
+							<p class="description">*Photoshop editing</p>
+
+							<p class="description">*Video Editing</p>
+							<p class="description">*Business Cards and Stationary</p>
+							<p class="description">*Packaging Design</p>
+							<p class="description">*Vector Tracing</p>
+							<a href="#" class="learn-more">Learn More</a>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<!-- / End Single Service -->
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fas fa-laptop-code"></i>
+							</span>
+							<h3 class="title">Website Development</h3>
+							<p class="description">We offer the following Services:</p>
+							<p class="description">*Website Design</p>
+							<p class="description">*Website Refresh</p>
+
+							<p class="description">*Website Search Engine Optimization (SEO)</p>
+
+							<p class="description">*Website Upgrades</p>
+							<p class="description">*Website Development</p>
+
+							<a href="#" class="learn-more">Learn More</a>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<!-- / End Single Service -->
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fab fa-500px"></i>
+							</span>
+							<h3 class="title">Logo Design</h3>
+							<p class="description">We offer the following Services:</p>
+							<p class="description">*Minimalist Logo Design</p>
+							<p class="description">*Vector Logo Design</p>
+							<p class="description">*Custom Logo Design</p>
+							<p class="description">*Note: All Logo Services come with AI, EPS, PDF, JPG, PNG formatted files. Also includes Unlimited Revisions</p>
+							<p class="description">Starting at $99</p>
+
+							<a href="#" class="learn-more">Learn More</a>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<!-- / End Single Service -->
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fas fa-chart-pie"></i>
+							</span>
+							<h3 class="title">Business Strategy Consulting</h3>
+							<p class="description">Unforeseen circumstances are impacting companies like never before as threats are emerging in the most unlikely places. Companies are struggling to adapt in an agile manner, and keep pace with innovation. Plus, customer expectations are increasing and evolving at an ever-increasing rate.</p>
+							<p class="description">We offer the following Business Consulting Services: </p>
+							<p class="description">*Business License Guidance and Information - Includes Business License, Signage Permit, Fire Alarm Permit, & Burglar Permit Guidance</p>
+							<p class="description">*Recruiting, Hiring, Interviewing, and Training Solutions</p>
+							<p class="description">*Payroll & Scheduling Soltuions</p>
+							<p class="description">*Loss prevention and Shrink Control Techniques to keep loss under 1.5%</p>
+							<p class="description">*Store Layout Design and Vendor Selection for your business or retail location</p>
+							<p class="description">*B2B Business to Business Purchasing and Vendor Selection Guidance</p>
+
+							<a href="#" class="learn-more">Learn More</a>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<!-- / End Single Service -->
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fab fa-artstation"></i>
+							</span>
+							<h3 class="title">Technical Consulting</h3>
+							<p class="description">Evolving marketplace competition and digital technology disruption requires companies to reimagine their operations and processes in a holistic way to stay ahead of competitors and drive desired business outcomes. </p>
+							<p class="description">Our process enables organizations to address these challenges by architecting and delivering world-class business capabilities while acting as a key pillar in any successful business transformation. </p>
+							<a href="#" class="learn-more">Learn More</a>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<!-- / End Single Service -->
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fas fa-chart-pie"></i>
+							</span>
+							<h3 class="title">Digital Marketing</h3>
+							<p class="description">We offer the following Services:</p>
+							<p class="description">*Social Media Markerting and Advertising</p>
+							<p class="description">*Search Engine Optimization (SEO)</p>
+							<p class="description">*Mobile Marketing and Advertising</p>
+							<p class="description">*Domain Research and Traffic Analytics</p>
+							<a href="#" class="learn-more">Learn More</a>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<!-- / End Single Service -->
+			</div>
+		</div>
+	</section>
+	<!-- / END SECTION SERVICES -->
+
+	<!--
+test services section above
+-->
+
 	<section class="experience">
-		<div class="content">
+		<div class="content" id="about">
 			<h1>Experience</h1>
 			<ul>
 				<li>
@@ -254,7 +413,7 @@ My name is Scott and I am a Web Designer & Front-End Developer based in Northern
 							<h3>Java</h3>
 							<span class="percent" id="angular-pourcent"></span>
 						</div>
-						<div class="bar-container" data-percent="95">
+						<div class="bar-container" data-percent="60">
 							<span class="progressbar" id="progress-angular"></span>
 						</div>
 					<li>
@@ -372,7 +531,7 @@ resume download button section below
 					<br><br>
 					<div class="project">
 						<div class="project-image">
-							<img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/117590870_10158636888387679_3520824487099349758_o.jpg?_nc_cat=107&_nc_sid=730e14&_nc_ohc=ZSVYykcDR8cAX9GtBxT&_nc_ht=scontent-sjc3-1.xx&oh=ea1911f546b9a11688cf5ba225270730&oe=5F5B83E5" alt="" />
+							<img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/122797553_10158833139617679_7241047860621421575_o.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=UVZhlqmL1p8AX91RP4-&_nc_ht=scontent-sea1-1.xx&oh=9ab8b16edb9d8588e93784ded1f3b342&oe=5FBCA003" alt="" />
 						</div>
 						<div class="project-title">
 							<h2>Showcase #2</h2>
@@ -385,7 +544,7 @@ resume download button section below
 					<br><br>
 					<div class="project">
 						<div class="project-image">
-							<img src="https://i.ibb.co/56tWbWp/images-site2-Show.png" alt="website photo example" />
+							<img src="https://i.ibb.co/56tWbWp/images-site2-Show.png" alt="website 2 photo example" />
 						</div>
 						<div class="project-title">
 							<h2>Showcase #3</h2>
@@ -402,7 +561,7 @@ resume download button section below
 		<div class="content">
 			<div class="footer">
 				<br>
-				<p>Got Questions? Contact me below!</p>
+				<p>Got Questions? Call (850) 200-2210 or Contact me below!</p>
 				<br>
 			</div>
 			<ul class="socials">
@@ -413,17 +572,17 @@ resume download button section below
 				</li>
 				<li class="social">
 					<a href="https://www.facebook.com/CowellandCoWebDesign/" target="_blank" class="facebook">
-						<i class="fa fa-facebook" aria-hidden="true"></i>
+						<i class="fab fa-facebook-square"></i>
 					</a>
 				</li>
 				<li class="social">
 					<a href="https://www.linkedin.com/in/williamcowell01/" target="_blank" class="linkedin">
-						<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+						<i class="fab fa-linkedin"></i>
 					</a>
 				</li>
 				<li class="social">
 					<a href="https://codepen.io/williamcowell01" target="_blank" class="codepen">
-						<i class="fa fa-codepen" aria-hidden="true"></i>
+						<i class="fab fa-codepen"></i>
 					</a>
 				</li>
 			</ul>

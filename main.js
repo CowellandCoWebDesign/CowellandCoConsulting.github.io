@@ -26,7 +26,7 @@ $(document).ready(function () {
 
 	// input text for typing animation
 	$("#holder").writeText(
-		"Website Development, Logo Design, Business Consulting"
+		"Website Development, Graphic Design, Business Consulting"
 	);
 
 	/* ####### HERO SECTION ####### */

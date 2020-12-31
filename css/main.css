@@ -47,56 +47,56 @@ section {
 
 /*##### Services Section #####*/
 p,a,h1,h2,h3,h4,h5,h6,ul,li {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .section-services {
-	font-family: "Poppins", sans-serif;
-	background-color: #e6edf7;
-	color: #202020;
-	padding-top: 115px;
+  font-family: "Poppins", sans-serif;
+  background-color: #e6edf7;
+  color: #202020;
+  padding-top: 115px;
     padding-bottom: 120px;
 }
 
 .section-services .header-section {
-	margin-bottom: 34px;
+  margin-bottom: 34px;
 }
 
 .section-services .header-section .title {
-	position: relative;
+  position: relative;
     padding-bottom: 14px;
     margin-bottom: 25px;
-	font-weight: 700;
+  font-weight: 700;
     font-size: 32px;
 }
 
 .section-services .header-section .title:before {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 50px;
-	height: 3px;
-	background-color: #ff4500;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #ff4500;
     border-radius: 3px;
 }
 
 .section-services .header-section .title:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 50%;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
     transform: translateX(30px);
-	width: 10px;
-	height: 3px;
-	background-color: #504f93;
+  width: 10px;
+  height: 3px;
+  background-color: #504f93;
     border-radius: 3px;
 }
 
 .section-services .header-section .description {
-	font-size: 14px;
+  font-size: 14px;
     color: #282828;
 }
 
@@ -110,8 +110,8 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 }
 
 .section-services .single-service .content {
-	position: relative;
-	z-index: 20;
+  position: relative;
+  z-index: 20;
 }
 
 .section-services .single-service .circle-before {
@@ -130,17 +130,17 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 }
 
 .section-services .single-service:hover .circle-before {
-	width: 100%;
-	height: 100%;
-	transform: none;
-	border: 0;
-	border-radius: 0;
-	opacity: 1;
+  width: 100%;
+  height: 100%;
+  transform: none;
+  border: 0;
+  border-radius: 0;
+  opacity: 1;
 }
 
 .section-services .single-service .icon {
-	display: inline-block;
-	margin-bottom: 26px;
+  display: inline-block;
+  margin-bottom: 26px;
     width: 70px;
     height: 70px;
     background-color: #ff4500;
@@ -153,19 +153,19 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 }
 
 .section-services .single-service:hover .icon {
-	background-color: #fff;
-	color: #ff4500;
+  background-color: #fff;
+  color: #ff4500;
 }
 
 .section-services .single-service .title {
     margin-bottom: 18px;
-	font-weight: 700;
+  font-weight: 700;
     font-size: 23px;
     transition: color .3s;
 }
 
 .section-services .single-service:hover .title {
-	color: #fff;
+  color: #fff;
 }
 
 .section-services .single-service .description {
@@ -175,12 +175,14 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 }
 
 .section-services .single-service:hover .description {
-	color: #fff;
+  color: #fff;
 }
-
+/**
+LEARN-MORE LEARN MORE BUTTONS
+*/
 .section-services .single-service a {
-	position: relative;
-	font-size: 18px;
+  position: relative;
+  font-size: 28px;
     color: #202020;
     text-decoration: none;
     font-weight: 500;
@@ -188,22 +190,22 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 }
 
 .section-services .single-service:hover a {
-	color: #fff;
+  color: #fff;
 }
 
 .section-services .single-service a:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 1px;
-	background-color: #ff4500;
-	transition: background-color .3s;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #ff4500;
+  transition: background-color .3s;
 }
 
 .section-services .single-service:hover a:after {
-	background-color: #fff;
+  background-color: #fff;
 }
 
 /*##### NAV SECTION #####*/
@@ -214,14 +216,14 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
   flex-wrap: nowrap;
   width:100%;
   background:#222;
-	position: fixed;
-	z-index: 100;
+  position: fixed;
+  z-index: 100;
 }
 .navItem, .navItem a {
   display:inline-block;
   flex-grow: 1;
-	font-family:'Open Sans', sans-serif;
-	height: 100%;
+  font-family:'Open Sans', sans-serif;
+  height: 100%;
   max-height: 60px;
 }
 .navItem a {
@@ -301,10 +303,10 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 hero section sizing below
 */
 .hero .content .header h1 {
-	font-size: 2em;
+  font-size: 2em;
 }
 .hero .content .header p {
-	font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .icon {
@@ -326,9 +328,9 @@ slide 2 title
 .about-myself .content h2 {
   color: #fff;
   font-weight: bold;
-  font-size: 1.75em;
+  font-size: 3.35em;
   background: rgba(0, 0, 0, 0.55);
-  margin-bottom: 140px;
+  margin-bottom: 120px;
   margin-top: 100px;
   margin-left: 60px;
   margin-right: 50px;
@@ -347,12 +349,13 @@ slide 2 title
 slide 2 definition below
 */
 .about-myself .content p {
-  color: #fff;
+  color: #ff0505;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 2.75em;
   background: rgba(0, 0, 0, 0.55);
-  margin-bottom: 120px;
-	padding-bottom: 20px;
+	background-size: auto;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .about-myself .content p span {
@@ -609,7 +612,7 @@ book a consultation button, slide 2
   position: absolute;
   padding: 20px 0;
   top: -80px;
-	margin-bottom: 80px;
+  margin-bottom: 80px;
   width: 100%;
   left: 0;
   -webkit-transition: top 0.5s;
@@ -833,9 +836,9 @@ h3 {
   .about-myself {
     padding: 10px 40px;
   }
-	.about-myself .content{
-		padding: 10px 40px;
-	}
+  .about-myself .content{
+    padding: 10px 40px;
+  }
 
   .skills {
     padding-left: 0;

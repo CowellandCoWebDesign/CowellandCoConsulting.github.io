@@ -1,6 +1,7 @@
 /**
 Site imported : 7-9-2020
 site update: 10/20/2020
+Most recent update: 12-31-2020
 w.cowell
 */
 @import url("https://fonts.googleapis.com/css?family=PT+Sans");
@@ -326,11 +327,11 @@ hero section sizing below
 slide 2 title
 */
 .about-myself .content h2 {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
-  font-size: 3.35em;
+  font-size: 1.85em;
   background: rgba(0, 0, 0, 0.55);
-  margin-bottom: 120px;
+  margin-bottom: 90px;
   margin-top: 100px;
   margin-left: 60px;
   margin-right: 50px;
@@ -341,18 +342,20 @@ slide 2 title
   transition: transform 0.7s;
 }
 
+
 .about-myself .content .aboutTitleVisible {
   -webkit-transform: translateY(0px) scale(1);
   transform: translateX(0px) scale(1);
 }
 /**
 slide 2 definition below
+phone number
 */
 .about-myself .content p {
-  color: #ff0505;
+  color: #31f531;
   font-weight: bold;
-  font-size: 2.75em;
-  background: rgba(0, 0, 0, 0.55);
+  font-size: 1.75em;
+  background: rgba(0, 0, 0, 0.35);
 	background-size: auto;
   margin-bottom: 10px;
   padding-bottom: 20px;
@@ -591,12 +594,12 @@ book a consultation button, slide 2
 */
 .bookNow .content a .btn-resume {
   display: inline-block;
-  font-size: 4.0em;
+  font-size: 1.9em;
   padding: 20px;
   margin-bottom: 55px;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(9, 156, 0, 0.75);
   position: relative;
-  border: 4px solid #00ebfc;
+  border: 4px round #00ebfc;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -606,11 +609,13 @@ book a consultation button, slide 2
   -moz-transition: opacity 1.2s;
   transition: opacity 1.2s;
 }
-
+/**
+lightning bolt - slide 2 button
+*/
 .bookNow .content a .btn-resume i {
-  color: #fff;
+  color: #ffffff;
   position: absolute;
-  padding: 0px 0;
+  padding-top: 10px;
   top: -130px;
   margin-bottom: 80px;
   width: 100%;
@@ -673,7 +678,7 @@ book a consultation button, slide 2
 .resume .content a .btn-resume i {
   color: #fff;
   position: absolute;
-  padding: 20px 0;
+  padding: 30px 0;
   top: -80px;
   width: 100%;
   left: 0;
@@ -690,7 +695,7 @@ book a consultation button, slide 2
 }
 
 .resume .content a .btn-resume:hover i {
-  top: 0;
+  top: 10;
 }
 
 /*##### PORTFOLIO SECTION #####*/

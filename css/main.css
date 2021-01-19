@@ -329,7 +329,7 @@ slide 2 title
 .about-myself .content h2 {
   color: #ffffff;
   font-weight: bold;
-  font-size: 1.85em;
+  font-size: 1.45em;
   background: rgba(0, 0, 0, 0.55);
   margin-bottom: 90px;
   margin-top: 100px;
@@ -594,12 +594,11 @@ book a consultation button, slide 2
 */
 .bookNow .content a .btn-resume {
   display: inline-block;
-  font-size: 1.9em;
+  font-size: 1.4em;
   padding: 20px;
   margin-bottom: 55px;
   background: rgba(9, 156, 0, 0.75);
   position: relative;
-  border: 4px round #00ebfc;
   border-radius: 5px;
   overflow: hidden;
 }
